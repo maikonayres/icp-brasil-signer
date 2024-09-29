@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "outDir": "./dist",
+    "module": "CommonJS",
+    "target": "ES2016",
+    "baseUrl": ".",
+    "rootDir": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "strictPropertyInitialization": false,
+    "noImplicitAny": false,
+    "skipLibCheck": true
+  }
+}
