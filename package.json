@@ -1,6 +1,6 @@
 {
   "name": "icp-brasil-signer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -10,13 +10,6 @@
   "license": "ISC",
   "description": "",
   "homepage": "https://github.com/maikonayres/icp-brasil-signer",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/maikonayres/icp-brasil-signer"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "dependencies": {
     "date-fns": "^4.1.0",
     "node-signpdf": "^3.0.0",
