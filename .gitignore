@@ -2,8 +2,8 @@
 
 # Compiled output
 /dist
-/ghostscript
-/assets
+/ghostscript/win32
+/assets/cert.pfx
 /tmp
 /out-tsc
 /bazel-out

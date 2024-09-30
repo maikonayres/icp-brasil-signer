@@ -1,7 +1,5 @@
 import { Buffer } from "buffer";
 
-import { PDFImage } from "pdf-lib";
-
 
 export interface ISignerModel {
   pdfToCertify: Buffer,
@@ -11,7 +9,8 @@ export interface ISignerModel {
   document: string,
   certifiedIn: string,
   watermark?: {
-    image: PDFImage
+    image: Buffer,
+    pages?: number[],
   },
 
 }

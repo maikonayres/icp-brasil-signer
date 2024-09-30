@@ -10,6 +10,8 @@
     "esModuleInterop": true,
     "strictPropertyInitialization": false,
     "noImplicitAny": false,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "declaration": true
   }
 }

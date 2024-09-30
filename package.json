@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "author": "maikon ayres da silva",
   "license": "ISC",
   "description": "",
-  "homepage": "https://github.com/maikonayres",
+  "homepage": "https://github.com/maikonayres/icp-brasil-signer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maikonayres/icp-brasil-signer"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "date-fns": "^4.1.0",
     "node-signpdf": "^3.0.0",
